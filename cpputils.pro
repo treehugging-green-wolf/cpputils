@@ -4,7 +4,7 @@ TARGET = cpputils
 CONFIG += staticlib
 CONFIG -= qt
 
-CONFIG += strict_c++ c++2a
+CONFIG += strict_c++ c++17
 
 mac* | linux*|freebsd {
 	CONFIG(release, debug|release):CONFIG *= Release optimize_full
